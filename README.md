@@ -10,4 +10,4 @@ pip install -r requirements.txt
 # Run either main.py, main1.py or main2.py
 Just run those scripts, and 6 files will be created:\
 2 visualizations in .html format\
-4 .txt files containing the datas about the mutual intersections
+4 .txt files containing the datas about the mutual intersections and other informations
