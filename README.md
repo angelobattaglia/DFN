@@ -4,7 +4,7 @@ Will make a proper documentation sooner or later. For now, just run the code by 
 pip install plotly\
 pip install scipy\
 pip install numpy\
-pip install dill\
+pip install dill
 ## or:
 pip install -r requirements.txt
 # See main.py, main1.py and main2.py for how to use it
