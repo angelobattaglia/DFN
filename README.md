@@ -8,4 +8,6 @@ pip install dill
 ## or:
 pip install -r requirements.txt
 # See main.py, main1.py and main2.py for how to use it
-
+Just run those scripts, and 6 files will be created:\
+2 visualizations in .html format\
+4 .txt files containing the datas about the mutual intersections
