@@ -1,0 +1,4 @@
+plotly
+scipy
+numpy
+dill
