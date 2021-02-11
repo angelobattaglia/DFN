@@ -1,1 +1,2 @@
-from DFN import DiscreteFractureNetwork as DFN
+from .DFN import *
+from .distributions import *
