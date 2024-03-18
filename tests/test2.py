@@ -1,7 +1,9 @@
 import numpy as np
-import DFN as dfn
+import sys
+sys.path.append('../src')
+from DFN import DiscreteFractureNetwork as dfn
 
-# Settiamo i parametri del costruttore del DFN
+# Setting the parameters for out network
 
 N = 4
 Xmin = 0
@@ -17,10 +19,15 @@ k = 3
 mode_vector = np.array([[0.], [0.], [1.]])
 fixed_n_edges = 0
 
-# Creiamo un network
+# Let's create a network
 
-network = dfn.DiscreteFractureNetwork(N, Xmin, Xmax, Ymin, Ymax, Zmin, Zmax,
-                                      alpha_pl, radius_l, radius_u, k, mode_vector, fixed_n_edges)
+## The Following two lines of code will work if used in the same directory of DFN.py
+#network = dfn.DiscreteFractureNetwork(N, Xmin, Xmax, Ymin, Ymax, Zmin, Zmax,
+                                      #alpha_pl, radius_l, radius_u, k, mode_vector, fixed_n_edges)
+
+network = dfn(N, Xmin, Xmax, Ymin, Ymax, Zmin, Zmax,
+                                        alpha_pl, radius_l, radius_u, k, mode_vector, fixed_n_edges)
+
 network.visual3D('1')
 network.scrittura1()
 network.scrittura2()

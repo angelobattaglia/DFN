@@ -5,7 +5,7 @@ import plotly.graph_objs as go
 import plotly.offline as poff
 import dill
 import matlab_clones as mc
-import trace
+import trace_1
 
 
 class DiscreteFractureNetwork:
@@ -222,7 +222,7 @@ class DiscreteFractureNetwork:
                     s.sort()
                     x1 = r0 + s[1] * t
                     x2 = r0 + s[2] * t
-                    tr = trace.Trace(p1, p2, i1, i2, np.array([x1, x2]).T)
+                    tr = trace_1.Trace(p1, p2, i1, i2, np.array([x1, x2]).T)
                     return tr
 
         else:

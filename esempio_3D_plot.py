@@ -6,6 +6,7 @@ Per approfondimenti visitare: https://plot.ly/python/
 import numpy as np
 import plotly.graph_objs as go
 import plotly.offline as poff
+import DFN
 
 ottagono_3d = np.array([[-0.33095549,  2.80413031,  5.46457847,  6.63418824,  5.86620843,
                          3.45398123,  0.31889543, -2.34155273, -3.5111625 , -2.74318269],
